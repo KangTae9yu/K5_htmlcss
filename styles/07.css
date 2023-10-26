@@ -1,3 +1,19 @@
-main {
-    background-color: aqua;
+#btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+#msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    height: 80px;
+    text-align: center;
 }
