@@ -8,22 +8,41 @@ section {
     align-items: center;
     margin-bottom: 20px;
 }
-.btC {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+
+#sec1 {
+    background-color: aliceblue;
 }
 
+#secDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.cmsg {
+.btC1 {
+    margin: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btDiv {
     display: flex;
     justify-content: center;
     align-items: center;
     
-    background-color: blueviolet;
+}
+
+#msg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: blue;
     color: white;
-    font-weight: bold;
-    width: 50%;
-    height: 80px;
-    text-align: center;
 }
