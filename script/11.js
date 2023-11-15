@@ -15,13 +15,27 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
 
         console.log(result) ;
+        // if (result == txt1.value) txt2.innerHTML = "회문입니다." ;
+        // else txt2.innerHTML = "회문이 아닙니다." ;
         if (result == txt1.value) txt2.value = "회문입니다." ;
         else txt2.value = "회문이 아닙니다." ;
         
     }) ;
 
     //숫자 합계
-    bt2.addEventListener("click", ()=>{
+    bt2.addEventListener("click", (e)=>{
+        e.preventDefault();
+        let sum = 0 ;
+        
+        // for (let i=0 ; i < txt1.value.length ; i++) {
+        //     console.log(txt1.value[i])
+        // }
+
+        for (let c of txt1.value) {
+            if (!isNaN(c)) sum = sum + parseInt(c) ;
+        }
+        
+        txt2.value = sum ;
 
     }) ;
 });
