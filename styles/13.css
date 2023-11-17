@@ -1,0 +1,18 @@
+#sp1, #sp2 {
+    font-size: x-large;
+
+}
+
+.sp:hover {
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+}
+
+.fdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
