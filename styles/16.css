@@ -1,0 +1,104 @@
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=date] {
+    display: inline-flex;
+    height: 40px;
+    width: 200px;
+    font-size: 1.2em;
+}
+#dtdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tbDiv {
+    width: 100%;
+    margin-bottom: 20px;    
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+th.tr {
+    height: 30px;
+}
+
+th {
+    background-color:lightskyblue;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color:lightcyan;
+}
+
+.sp1 {
+    text-align: center;
+}
+
+.sp2 {
+    text-align: left;
+}
+
+.sp3 {
+    text-align: right;
+}
+
+#d0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inDiv {
+    width: 50%;
+}
+
+.inDiv2 {
+    padding-top: 10px;
+    width: 45%;
+}
+
+#bt {
+    display: inline-flex;
+
+    width: 100%;
+}
+
+.inDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+
+fieldset {    
+    text-align: center;
+    padding: 10px ;
+    width: 50%;   
+}
+
+.inDiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+    
+}
