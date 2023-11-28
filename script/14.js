@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         tags = arr.map((item, idx) =>
             idx == 5 
-                ? `<span class="sp" id="sp${Math.floor(parseInt(item) / 10)}">
+                ? `<span class= >
                     ${item}
                     </span>
                     <span class="sp" id="spp">+</span>`                    

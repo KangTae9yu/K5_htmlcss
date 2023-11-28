@@ -20,15 +20,18 @@ section h1 {
     text-align: center;
 }
 
+
 ol {
-    display: flex;
+    /* display: flex; 
     justify-content: center;
-    color: white;
-    height: 80px;    
+    align-items: center; */
+    text-align: center;
+    color: white; 
     list-style-type: none;
 }
 
 section li {
+    display: inline-flex;
     background-color: blueviolet;
     color: white;
     margin: 10px;
@@ -36,6 +39,7 @@ section li {
     text-align: right;
     border-radius: 10px;      
 }
+
 nav a {
     text-decoration: none;
     color: white;
